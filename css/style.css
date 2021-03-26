@@ -1,0 +1,374 @@
+   /**
+* BAUER || PSD TO HTML 
+* Author: KAWSER AHAMED
+* version: 0.0.1
+* Date: 20-03-2021
+**/
+
+/* ============================
+        DEFULTE CSS
+ ============================ */
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap'); 
+ 
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+body{
+   font-family: 'Poppins', sans-serif;
+}
+a{
+   text-decoration: none;
+}
+
+li{
+   list-style: none;
+}
+p{
+   font-family: 'Poppins', sans-serif;
+   font-weight: 400;
+   font-size: 15px;
+   color: #7a7c7f;
+}
+h1{
+   font-family: 'Poppins', sans-serif;
+   font-size: 70px;
+   font-weight: 400;
+   line-height: 100px;
+   color: #000a2d;
+}
+h2{
+   font-family: 'Poppins', sans-serif;
+   font-size: 42px;
+   font-weight: 300;
+   line-height: 80px;
+   color: #000a2d;
+}
+h3{
+   font-family: 'Poppins', sans-serif;
+   font-size: 24px;
+   font-weight: 700;
+   line-height: 36px;
+   color: #000a2d;
+}
+h4{
+   font-family: 'Poppins', sans-serif;
+   font-size: 20px;
+   font-weight: 700;
+   line-height: 28px;
+   color:#ff3d4f;
+}
+h5{
+   font-family: 'Poppins', sans-serif;
+   font-size: 16px;
+   font-weight: 600;
+   color:#cacaca;
+}
+strong{
+   font-family: 'Poppins', sans-serif;
+   font-weight: 500;
+}
+img{
+   width: 100%;
+}
+.containers{
+   width: 80%;
+   margin: 0 auto;
+}
+.container{
+   width: 70%;
+   margin: 0 auto;
+}
+
+/* ============================
+     START HEAEDR SECTION
+============================ */
+.nav-tops{
+   background: #f7f9f9;
+   border-bottom: 1px solid #e1e6ed;
+}
+.nav-top{
+   display: flex;
+   justify-content: space-between;
+   padding: 20px 0;
+}
+.nav-top-contact ul{
+   display: flex;
+}
+.nav-top-contact ul li:first-child{
+   border-right: 1px solid #cbd3e2;
+   margin-right: 20px;
+}
+.nav-top-contact ul li a{
+   margin-right: 20px;
+}
+.nav-top-contact ul li a i{
+   margin-right: 20px;
+   font-size: 14px;
+   color: #f35c27;
+}
+.nav-top-social{
+   display: flex;
+   align-items: center; 
+}
+.nav-top-social ul{
+   display: flex;
+   align-items: center;
+}
+.nav-top span{
+   color: #8a99c0;
+   font-size: 14px;
+   font-weight: 600;
+}
+.nav-top-social p{
+   color: #000;
+   font-size: 14px;
+   font-weight: 500;
+   margin-right: 20px;
+}
+.nav-top-social li{
+   margin-right: 20px;
+}
+.nav-top-social ul li:first-child{
+   margin-left: 10px;
+}
+.nav-top-social ul li{
+   margin-right: 20px;
+}
+.nav-top-social ul li:last-child{
+   margin-right: 0;
+}
+.nav-top-social li a{
+   color: #8a99c0;
+   font-size: 14px;
+   font-weight: 500;
+}
+
+
+.nav-menu{
+   display: flex;
+   justify-content: space-between;
+   padding: 20px 0px 0px 0px;
+   margin-bottom: 52px;
+}
+.menu-item{
+   display: flex;
+}
+.menu-item ul{
+display: flex;
+}
+.menu-item ul li{
+   margin-right: 15px;
+}
+.menu-item ul li i{
+   color: #f15d32;
+   font-size: 24px;
+   margin-top: 8px;
+}
+.menu-item ul li p{
+   margin-right: 50px;
+}
+
+.menu-item ul p{
+   font-size: 14px;
+   font-weight: 500;
+   color: #7a7c7f;
+}
+.menu-phone{
+   display: flex;
+   align-items: center;
+}
+.menu-phone li i{
+   font-size: 28px;
+   color: #f15d32;
+   margin-right: 10px;
+}
+.menu-phone p{
+   color: #f15d32;
+}
+
+
+
+nav ul{
+   display: flex;
+}
+nav ul li{
+   margin-right: 30px;
+}
+nav ul li a{
+   color: #d7d7d7;
+   font-size: 16px;
+}
+nav ul li i{
+  margin-left: 3px;
+}
+
+
+
+.nav-bottom{
+   background: #030f27;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 20px;
+   border-radius: 5px;
+}
+.nav-bottom-right{
+   display: flex;
+   align-items: center;
+}
+.nav-bottom-right i{
+   margin-right: 20px;
+   color: #d7d7d7;
+   font-size: 24px;
+}
+.nav-bottom-right .header-button button a{
+   padding: 14px 44px;
+   display: block;
+   font-size: 15px;
+   font-weight: 500;
+   font-family: 'Poppins', sans-serif;
+   color: #f2f2f2;
+}
+.nav-bottom-right .header-button button{
+   border-radius: 50px;
+   outline:none;
+   border: none;
+   background: #f35c27;
+}
+
+nav ul li a:hover{
+   color: #f15d32;
+   border-bottom: 2px solid #f15d32;
+
+}
+
+.nav-bottoms{
+   position: relative;
+}
+.nav-bottom{
+   position: absolute;
+   top: 80px;
+}
+
+
+/* ============================
+    START BANNER SECTION
+============================ */
+
+.banner-section{
+   background: #686e7a;
+   padding: 230px 0;
+}
+.banner-button{
+   display: flex;
+}
+.banner-button .global-button{
+   margin-right: 10px;
+}
+.banner-button .watch-btn button{
+   background: #868b95;
+   color: #fff;
+   border: 2px solid #fff;;
+   font-weight: 500;
+}
+.banner-button .watch-btn button i{
+   font-size: 15px;
+   margin-right: 5px;
+}
+.banner-content{
+   width: 850px;
+}
+.banner-content h1{
+   color: #fff;
+   padding: 40px 0;
+}
+.banner-content h1 strong{
+   color: #fff;
+   font-weight: 600;
+}
+.banner-content p{
+   font-size: 22px;
+   margin-bottom: 60px;
+}
+.banner-button .banner-button-left button{
+   padding: 14px 64px;
+   font-size: 15px;
+   font-weight: 500;
+   font-family: 'Poppins', sans-serif;
+   border-radius: 50px;
+   border: 2px solid #f35c27;
+   background: #f35c27;
+   margin-right: 10px;
+}
+.banner-button button{
+   padding: 14px 44px;
+   font-size: 15px;
+   font-weight: 500;
+   font-family: 'Poppins', sans-serif;
+   border-radius: 50px;
+   outline:none;
+   border: 2px solid #fff;
+   background: #868b95;
+}
+.banner-button button a{
+   color: #fff ;
+}
+.banner-button .banner-button-right button a i{
+   margin-right: 10px;
+}
+
+
+/* ============================
+     START education SECTION
+============================ */
+.education-section{
+   padding: 110px 0;
+}
+.education-wrapper{
+   display: flex;
+   justify-content: space-between;
+}
+.education-content{
+   flex-basis: 48%;
+}
+.education-img{
+   flex-basis: 48%;
+}
+
+.education-img .box-1{
+   width: 550px;
+   height: 550px;
+   background: #ebebeb;
+   position: relative;
+}
+.education-img .box-2{
+   width: 400px;
+   height: 400px;
+   background: #ebebeb;
+   position: relative;
+   border: 5px solid #fff;
+}
+.education-img .box-3{
+   width: 170px;
+   height: 170px;
+   background: #ff3d4f;
+   position: absolute;
+   top: 163px;
+   left: 489px;
+   line-height: 80px;
+   text-align: center;
+}
+.education-img .box-3 i{
+   font-size: 25px;
+   color: #fff;
+ 
+}
+.education-imgs{
+   position: absolute;
+   top: 255px;
+   left: -78px;
+}
+
